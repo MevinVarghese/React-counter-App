@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(134, 128, 128);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8rem;
+}
+
+.heading {
+  font-size: 40px;
+  color: white;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+.count-container h5 {
+  color: white;
+}
+
+.current-count {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  padding: 10px;
+  width: 200px;
+  border-radius: 20px;
+  padding-left: 85px;
+}
+
+.button-container {
+  display: flex;
+  gap: 20px;
+}
+
+.small-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  cursor: pointer;
+}
+.large-button {
+  width: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(23, 22, 22);
+  color: white;
+  cursor: pointer;
+}
